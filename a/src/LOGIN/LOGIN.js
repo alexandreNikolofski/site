@@ -70,7 +70,7 @@ function Login() {
             </FormGroup>
             {error && <ErrorText>{error}</ErrorText>}
             <SubmitButton type="submit">Login</SubmitButton>
-            <Link to="/Register">Don't have an account? Register here</Link>
+            <Link to="/Register">Não tem uma conta? Registre-se aqui</Link>
           </form>
         </LoginForm>
       ) : (

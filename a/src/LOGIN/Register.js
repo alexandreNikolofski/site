@@ -33,7 +33,7 @@ function Register() {
         <FormTitle>Register</FormTitle>
         <form onSubmit={handleRegister}>
           <FormGroup>
-            <FormLabel htmlFor="username">Username:</FormLabel>
+            <FormLabel htmlFor="username">Register:</FormLabel>
             <FormInput
               type="text"
               id="username"
@@ -52,10 +52,10 @@ function Register() {
               required
             />
           </FormGroup>
-          <SubmitButton type="submit">Register</SubmitButton>
+          <SubmitButton type="submit">Cadastre-se</SubmitButton>
         </form>
         <MessageText>{message}</MessageText>
-        <LoginLink to="/">Already have an account? Login here</LoginLink>
+        <LoginLink to="/">Já tem conta? Clique aqui</LoginLink>
       </RegisterForm>
     </RegisterContainer>
   );
